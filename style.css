@@ -1,0 +1,37 @@
+input{
+  width: 900px;
+  padding: 20px 0;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+ 
+}
+div {
+  width: 1000px;
+  padding: 10px;
+  border: 2px solid black;
+  
+}
+table{
+	text-align: center;
+	width: 1300px;
+	border: 2px solid black;
+	padding: 12px;
+}
+#show th, #show td{
+	padding:13px;
+
+}
+
+#addBtn{
+  width: 900px;
+  padding: 20px 0;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+ 
+}
+
+
+
+

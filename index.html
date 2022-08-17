@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Grade Calculator</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <center>
+			<div>
+				<h2>Student Grade Calculator</h2>
+				<br>
+				<input type="text" id="id" name="id" placeholder=" Enter student ID(format:ST-00100)" >
+
+				<input type="text"  id="maths" name="maths" placeholder=" Enter Mathematics Marks">
+
+				<input type="text"  id="english" name="english" placeholder=" Enter English Marks" >
+			
+				<input type="text"   id="science" name="science" placeholder=" Enter Science Marks">
+				
+				<button id="addBtn" onclick="addRow();">ENTER</button>
+			</div>
+			<h2>Student Results</h2>
+			<table border="1" id="show">
+				<tr>
+					<th>Student No.</th>
+					<th>Mathematics</th>
+					<th>English</th>
+					<th>Science</th>
+					<th>Total</th>
+					<th>Average</th>
+					<th>Grade</th>
+				</tr>
+			</table>
+		</center>
+	<script src="script.js"></script>
+    </body>
+
+</html>
